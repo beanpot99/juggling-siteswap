@@ -1,0 +1,40 @@
+/* 
+@keyframes juggleOne {
+    0%, 100% {
+      transform: translateY(0) translateX(0);
+    }
+    25% {
+      transform: translateY(-100px) translateX(50px);
+    }
+    50% {
+      transform: translateY(0) translateX(100px);
+    }
+    75% {
+      transform: translateY(-100px) translateX(150px);
+    }
+  }
+  
+  @keyframes juggleTwo {
+    0%, 100% {
+      transform: translateY(0) translateX(100px);
+    }
+    25% {
+      transform: translateY(-100px) translateX(150px);
+    }
+    50% {
+      transform: translateY(0) translateX(200px);
+    }
+    75% {
+      transform: translateY(-100px) translateX(250px);
+    }
+  }
+  
+  .juggling-ball {
+    animation: juggleOne 2s linear infinite;
+  }
+  
+  .juggling-ball:nth-child(2) {
+    animation: juggleTwo 2s linear infinite;
+    animation-delay: 1s;
+  }
+   */
